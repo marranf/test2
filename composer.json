@@ -5,12 +5,9 @@
     "license": "proprietary",
     "minimum-stability": "stable",
 				"version":"1.0.0",
-    "require":{
-        "php":">=5.3.0"
-    },
-    "autoload":{
+				"autoload":{
         "psr-4":{
-         "test\\":"app/vendor/marran/test/"
+         "test\\":"\\vendor\\marran\\test"
         }
 					}
 }
